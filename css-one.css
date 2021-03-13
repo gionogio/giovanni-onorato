@@ -93,10 +93,6 @@ body{
 }
 
 .about{
-    background-image: url(/imgs/about-contact/prova_7.bmp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     grid-area: content;
     color: #111;
     grid-column: 2/5;
@@ -106,6 +102,9 @@ body{
 }
 
 .ab-container {
+    background-image: url(/imgs/about-contact/aboutc2.jpg);
+    background-position: right;
+    background-size:contain;
     align-items: left;
     display:flex;
     justify-content: left;
@@ -114,8 +113,11 @@ body{
 }
 
 .ab-box {
-    background-color:rgba(255,255,255,0.6);
-    border-radius: 4px;
+    background-image: url(/imgs/about-contact/about_c1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.8);
     font-size: 18;
     text-align: center;
     line-height: 1.6;
