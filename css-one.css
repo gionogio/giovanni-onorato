@@ -107,7 +107,8 @@ body{
     margin-right: auto;
 }
 
-.about p {
+.ab {
+    color:#999;
     text-align: center;
 }
 
