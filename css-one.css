@@ -20,10 +20,10 @@ body{
 .header {
     grid-area: header;
     background-color: rgb(1, 0, 0);
-    font-weight: 700;
-    padding: 1rem;
-    font-size: 25;
+    padding: 1.5rem;
+    font-size: 30;
     color:#999;
+    font-weight: 500
 }
 
 .navbar {
@@ -40,6 +40,8 @@ body{
 .nav a:hover {
     color: white;
     opacity: 1.3;
+    font-size: 16;
+    font-weight: 1000;
 }
 
 .nav {
@@ -49,7 +51,7 @@ body{
 }
 
 .nav li {
-    margin:1rem;
+    margin:1.5rem;
     grid: repeat(6, 2px);
     font-weight: 500;
 }
