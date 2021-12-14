@@ -117,6 +117,7 @@ body{
 .contact{
     margin: auto;
     color:#999;
-    font-size: 16;
+    font-size: 18;
     text-align: center;
+    background-color: rgb(0, 0, 0);
 }
